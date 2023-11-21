@@ -1,0 +1,19 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "zx --install ./retry.mjs"
+  },
+  "bin": {
+    "retry": "./retry.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "node-notifier": "^10.0.1",
+    "zx": "^7.2.3"
+  }
+}
